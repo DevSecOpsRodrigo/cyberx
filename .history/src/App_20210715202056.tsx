@@ -9,8 +9,8 @@ import { AuthContextProvider } from './contexts/AuthContext'
 
 function App() {
   return (
-   <HashRouter>
-     <BrowserRouter>
+    <HashRouter>
+    <BrowserRouter>
        <AuthContextProvider>
          <Switch>
            <Route path="/" exact component={Home} />
