@@ -1,8 +1,10 @@
 {
   "compilerOptions": {
-    "typeRoots":[
-     "./typings",
-     "./node_modules/@types/"],
+
+    "typeRoots": [
+      "./typings",
+      "./node_modules/@types/"
+    ],
     "target": "es5",
     "lib": [
       "dom",
@@ -21,8 +23,12 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noImplicitAny": false,
-    "noEmit": true,
+<<<<<<< HEAD
+    "jsx": "react-jsx",
+    "noEmit": true
+=======
     "jsx": "react-jsx"
+>>>>>>> b7232326c9544ae86fce3a6ecaad735b071b0ddc
   },
   "include": [
     "src"
