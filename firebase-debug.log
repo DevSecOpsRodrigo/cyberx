@@ -1,0 +1,25 @@
+[debug] [2021-07-19T08:15:49.097Z] ----------------------------------------------------------------------
+[debug] [2021-07-19T08:15:49.100Z] Command:       /usr/bin/node /usr/local/bin/firebase init
+[debug] [2021-07-19T08:15:49.100Z] CLI Version:   9.16.0
+[debug] [2021-07-19T08:15:49.101Z] Platform:      linux
+[debug] [2021-07-19T08:15:49.101Z] Node Version:  v14.17.2
+[debug] [2021-07-19T08:15:49.101Z] Time:          Mon Jul 19 2021 05:15:49 GMT-0300 (Horário Padrão de Brasília)
+[debug] [2021-07-19T08:15:49.101Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-07-19T08:15:49.169Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-07-19T08:15:49.170Z] > authorizing via signed-in user (rodrigo.lima.devops@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/cyber/Documentos/master
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
