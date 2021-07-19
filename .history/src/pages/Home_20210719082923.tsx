@@ -72,6 +72,10 @@ export function Home() {
           </form>
         </div>
       </main>
+      <footer>
+        <React></React>
+      <QRCode value="https://github.com/gcoro/react-qrcode-logo" />
+      </footer>
     </div>
   )
 }

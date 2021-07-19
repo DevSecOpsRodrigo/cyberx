@@ -1,6 +1,6 @@
 import { useHistory } from 'react-router-dom'
 import { FormEvent, useState } from 'react';
-import { QRCode } from 'react-qrcode-logo';
+import { QRCode } from '';
 
 import illustrationImg from '../assets/images/illustration.svg'
 import logoImg from '../assets/images/logo.svg';
@@ -72,6 +72,9 @@ export function Home() {
           </form>
         </div>
       </main>
+      <footer>
+      <QRCode value="https://github.com/gcoro/react-qrcode-logo" />
+      </footer>
     </div>
   )
 }

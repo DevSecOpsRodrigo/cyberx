@@ -71,6 +71,7 @@ export function Home() {
             </Button>
           </form>
         </div>
+        https://blogup.github.io/ctti/#home
       </main>
     </div>
   )

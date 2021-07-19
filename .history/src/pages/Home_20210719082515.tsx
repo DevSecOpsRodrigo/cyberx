@@ -72,6 +72,9 @@ export function Home() {
           </form>
         </div>
       </main>
+      <footer>
+        
+      </footer>
     </div>
   )
 }

@@ -7,7 +7,7 @@ import { AdminRoom } from './pages/AdminRoom';
 
 import { AuthContextProvider } from './contexts/AuthContext';
 
-
+import { QRCode } from ""
 
 function App() {
   return (

@@ -71,6 +71,8 @@ export function Home() {
             </Button>
           </form>
         </div>
+        <QRCode value="https://github.com/gcoro/react-qrcode-logo" />,
+  mountNode
       </main>
     </div>
   )
