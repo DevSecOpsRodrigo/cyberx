@@ -34,6 +34,7 @@ export function NewRoom() {
 
   return (
     <div id="page-auth">
+      
       <main>
         <div className="main-content">
           <img src={logoImg} alt="Letmeask" />

@@ -2,7 +2,7 @@ import { FormEvent, useState } from 'react'
 import { Link, useHistory } from 'react-router-dom'
 
 import illustrationImg from '../assets/images/illustration.svg'
-import logoImg from '../assets/images/logo.svg';
+import logoImg from '../assets/images/logo.';
 
 import { Button } from '../components/Button';
 import { database } from '../services/firebase';
@@ -34,6 +34,11 @@ export function NewRoom() {
 
   return (
     <div id="page-auth">
+      <aside>
+        <img src={illustrationImg} alt="Ilustração simbolizando perguntas e respostas" />
+        <strong>Crie salas de Q&amp;A ao-vivo</strong>
+        <p>Tire as dúvidas da sua audiência em tempo-real</p>
+      </aside>
       <main>
         <div className="main-content">
           <img src={logoImg} alt="Letmeask" />
