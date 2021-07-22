@@ -1,0 +1,1 @@
+const JscramblerWebpack = require(" js ")
